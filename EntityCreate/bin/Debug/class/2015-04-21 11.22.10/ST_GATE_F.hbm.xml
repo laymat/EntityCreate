@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_GATE_F" table="ST_GATE_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="FTM" column="FTM" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="EQPTP" column="EQPTP" type="String"></property>
+    <property name="FEQPNO" column="FEQPNO" type="String"></property>
+    <property name="FOPGTNUM" column="FOPGTNUM" type="String"></property>
+    <property name="FOPHGT" column="FOPHGT" type="Double"></property>
+    <property name="FGTQ" column="FGTQ" type="Double"></property>
+    <property name="RLSTM" column="RLSTM" type="DateTime"></property>
+    <property name="RLSINSTCD" column="RLSINSTCD" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_SENDDO_E" table="ST_SENDDO_E" lazy="true" >
+    <id name="SLSH" column="SLSH" type="Decimal">
+      <generator class="identity" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="TABID" column="TABID" type="String"></property>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="EXCKEY" column="EXCKEY" type="String"></property>
+    <property name="OPERATION" column="OPERATION" type="String"></property>
+    <property name="EXCINF" column="EXCINF" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

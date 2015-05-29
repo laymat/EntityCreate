@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_TIDE_R" table="ST_TIDE_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="TDZ" column="TDZ" type="Decimal"></property>
+    <property name="AIRP" column="AIRP" type="Decimal"></property>
+    <property name="TDCHRCD" column="TDCHRCD" type="String"></property>
+    <property name="TDPTN" column="TDPTN" type="String"></property>
+    <property name="HLTDMK" column="HLTDMK" type="String"></property>
+  </class>
+</hibernate-mapping>
+

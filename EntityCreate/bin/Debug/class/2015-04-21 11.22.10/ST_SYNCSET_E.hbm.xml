@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_SYNCSET_E" table="ST_SYNCSET_E" lazy="true" >
+    <id name="SYSNAME" column="SYSNAME" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="SYSVALUE" column="SYSVALUE" type="String"></property>
+  </class>
+</hibernate-mapping>
+

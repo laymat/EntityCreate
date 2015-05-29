@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_WGRW_R" table="ST_WGRW_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="WLMIN" column="WLMIN" type="Decimal"></property>
+    <property name="WLMINMT" column="WLMINMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

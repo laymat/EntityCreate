@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_WSPAVSD_R" table="ST_WSPAVSD_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDR" column="STTDR" type="Decimal"></property>
+    <property name="DRAVZ" column="DRAVZ" type="Decimal"></property>
+    <property name="DRAVQ" column="DRAVQ" type="Decimal"></property>
+    <property name="DRPW" column="DRPW" type="Decimal"></property>
+    <property name="DRDW" column="DRDW" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

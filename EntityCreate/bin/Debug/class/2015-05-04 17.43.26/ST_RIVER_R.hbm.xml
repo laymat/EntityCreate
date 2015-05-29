@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_RIVER_R" table="ST_RIVER_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="Z" column="Z" type="Decimal"></property>
+    <property name="Q" column="Q" type="Decimal"></property>
+    <property name="XSA" column="XSA" type="Decimal"></property>
+    <property name="XSAVV" column="XSAVV" type="Decimal"></property>
+    <property name="XSMXV" column="XSMXV" type="Decimal"></property>
+    <property name="FLWCHRCD" column="FLWCHRCD" type="String"></property>
+    <property name="WPTN" column="WPTN" type="String"></property>
+    <property name="MSQMT" column="MSQMT" type="String"></property>
+    <property name="MSAMT" column="MSAMT" type="String"></property>
+    <property name="MSVMT" column="MSVMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

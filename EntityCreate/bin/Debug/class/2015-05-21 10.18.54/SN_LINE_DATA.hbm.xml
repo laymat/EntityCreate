@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_LINE_DATA" table="SN_LINE_DATA" lazy="true" >
+    <id name="SN_LINE_ID" column="SN_LINE_ID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="SN_LINE_LIST_ID" column="SN_LINE_LIST_ID" type="Decimal"></property>
+    <property name="SN_LINE_E" column="SN_LINE_E" type="String"></property>
+    <property name="SN_LINE_N" column="SN_LINE_N" type="String"></property>
+    <property name="SN_LINE_INDEX" column="SN_LINE_INDEX" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

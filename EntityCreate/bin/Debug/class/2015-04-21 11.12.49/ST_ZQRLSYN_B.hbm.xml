@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_ZQRLSYN_B" table="ST_ZQRLSYN_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="YR" column="YR" type="Int32"></property>
+    <property name="PTNO" column="PTNO" type="Int32"></property>
+    <property name="Z" column="Z" type="Double"></property>
+    <property name="Q" column="Q" type="Double"></property>
+  </class>
+</hibernate-mapping>
+

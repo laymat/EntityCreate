@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_RSVRMYAV_B" table="ST_RSVRMYAV_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="SRNO" column="SRNO" type="String"></property>
+    <property name="MTHDY" column="MTHDY" type="String"></property>
+    <property name="MYRAVW" column="MYRAVW" type="Double"></property>
+  </class>
+</hibernate-mapping>
+

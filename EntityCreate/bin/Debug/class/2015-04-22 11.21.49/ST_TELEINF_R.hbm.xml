@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_TELEINF_R" table="ST_TELEINF_R" lazy="true" >
+    <id name="PRFIXNO" column="PRFIXNO" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="PROCDT" column="PROCDT" type="DateTime"></property>
+    <property name="TELE" column="TELE" type="String"></property>
+  </class>
+</hibernate-mapping>
+

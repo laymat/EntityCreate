@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_RSVRFCCH_B" table="ST_RSVRFCCH_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="DAMEL" column="DAMEL" type="Decimal"></property>
+    <property name="CKFLZ" column="CKFLZ" type="Decimal"></property>
+    <property name="DSFLZ" column="DSFLZ" type="Decimal"></property>
+    <property name="NORMZ" column="NORMZ" type="Decimal"></property>
+    <property name="DDZ" column="DDZ" type="Decimal"></property>
+    <property name="ACTZ" column="ACTZ" type="Decimal"></property>
+    <property name="TTCP" column="TTCP" type="Decimal"></property>
+    <property name="FLDCP" column="FLDCP" type="Decimal"></property>
+    <property name="ACTCP" column="ACTCP" type="Decimal"></property>
+    <property name="DDCP" column="DDCP" type="Decimal"></property>
+    <property name="HHRZ" column="HHRZ" type="Decimal"></property>
+    <property name="HHRZTM" column="HHRZTM" type="DateTime"></property>
+    <property name="HMXINQ" column="HMXINQ" type="Decimal"></property>
+    <property name="RSTDR" column="RSTDR" type="Decimal"></property>
+    <property name="HMXINQTM" column="HMXINQTM" type="DateTime"></property>
+    <property name="HMXW" column="HMXW" type="Decimal"></property>
+    <property name="HMXWTM" column="HMXWTM" type="DateTime"></property>
+    <property name="RHMXOTQ" column="RHMXOTQ" type="Double"></property>
+    <property name="RHMXOTQTM" column="RHMXOTQTM" type="DateTime"></property>
+    <property name="RSVRTP" column="RSVRTP" type="String"></property>
+    <property name="HMXOTQ" column="HMXOTQ" type="Decimal"></property>
+    <property name="HMXOTQTM" column="HMXOTQTM" type="DateTime"></property>
+    <property name="HLRZ" column="HLRZ" type="Decimal"></property>
+    <property name="HLRZTM" column="HLRZTM" type="DateTime"></property>
+    <property name="HMNINQ" column="HMNINQ" type="Decimal"></property>
+    <property name="HMNINQTM" column="HMNINQTM" type="DateTime"></property>
+    <property name="LAZ" column="LAZ" type="Decimal"></property>
+    <property name="SFQ" column="SFQ" type="Decimal"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

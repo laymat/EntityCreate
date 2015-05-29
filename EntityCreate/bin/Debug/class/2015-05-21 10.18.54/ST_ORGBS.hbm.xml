@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="ST_ORGBS" table="ST_ORGBS" lazy="true" >
+    <id name="ORGCD" column="ORGCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="BSCD" column="BSCD" type="String"></property>
+  </class>
+</hibernate-mapping>
+

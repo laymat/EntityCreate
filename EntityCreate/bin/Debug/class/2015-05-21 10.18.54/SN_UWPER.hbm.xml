@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_UWPER" table="SN_UWPER" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="IWD" column="IWD" type="Decimal"></property>
+    <property name="WLTP" column="WLTP" type="String"></property>
+    <property name="GWTP" column="GWTP" type="String"></property>
+    <property name="GWCON" column="GWCON" type="String"></property>
+    <property name="GWITEM" column="GWITEM" type="String"></property>
+  </class>
+</hibernate-mapping>
+

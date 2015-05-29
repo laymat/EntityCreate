@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SYSTEMPOWER" table="SYSTEMPOWER" lazy="true" >
+    <id name="ID" column="ID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="SYSTEMNAME" column="SYSTEMNAME" type="String"></property>
+    <property name="MENUID" column="MENUID" type="Decimal"></property>
+    <property name="HANDLEID" column="HANDLEID" type="String"></property>
+    <property name="HANDLETYPE" column="HANDLETYPE" type="Decimal"></property>
+    <property name="RIGHTID" column="RIGHTID" type="Decimal"></property>
+    <property name="SIGN" column="SIGN" type="Decimal"></property>
+    <property name="CREATDATE" column="CREATDATE" type="String"></property>
+  </class>
+</hibernate-mapping>
+

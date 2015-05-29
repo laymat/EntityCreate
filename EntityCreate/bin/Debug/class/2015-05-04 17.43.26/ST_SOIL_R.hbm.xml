@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_SOIL_R" table="ST_SOIL_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="VTAVSLM" column="VTAVSLM" type="Decimal"></property>
+    <property name="SRLSLM" column="SRLSLM" type="Decimal"></property>
+    <property name="SLM10" column="SLM10" type="Decimal"></property>
+    <property name="SLM20" column="SLM20" type="Decimal"></property>
+    <property name="SLM30" column="SLM30" type="Decimal"></property>
+    <property name="SLM40" column="SLM40" type="Decimal"></property>
+    <property name="SLM50" column="SLM50" type="Double"></property>
+    <property name="SLM60" column="SLM60" type="Decimal"></property>
+    <property name="SLM70" column="SLM70" type="Double"></property>
+    <property name="SLM80" column="SLM80" type="Decimal"></property>
+    <property name="SLM90" column="SLM90" type="Double"></property>
+    <property name="SLM100" column="SLM100" type="Decimal"></property>
+    <property name="SLM110" column="SLM110" type="Double"></property>
+    <property name="CRPTY" column="CRPTY" type="String"></property>
+    <property name="CRPGRWPRD" column="CRPGRWPRD" type="String"></property>
+    <property name="HITRSN" column="HITRSN" type="String"></property>
+    <property name="HITEXT" column="HITEXT" type="String"></property>
+    <property name="SLTP" column="SLTP" type="String"></property>
+    <property name="DRSLD" column="DRSLD" type="Int32"></property>
+    <property name="IRRINTV" column="IRRINTV" type="Int32"></property>
+    <property name="PINTV" column="PINTV" type="Int32"></property>
+    <property name="SLMMMT" column="SLMMMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

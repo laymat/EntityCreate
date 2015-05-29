@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_HAIL_R" table="ST_HAIL_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="HPD" column="HPD" type="Decimal"></property>
+    <property name="HLDR" column="HLDR" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

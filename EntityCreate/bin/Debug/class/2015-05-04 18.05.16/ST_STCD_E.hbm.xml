@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_STCD_E" table="ST_STCD_E" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

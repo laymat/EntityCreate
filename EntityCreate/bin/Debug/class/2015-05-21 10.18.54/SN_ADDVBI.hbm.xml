@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_ADDVBI" table="SN_ADDVBI" lazy="true" >
+    <id name="ADDVCD" column="ADDVCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="ADDVNM" column="ADDVNM" type="String"></property>
+    <property name="ADDVB" column="ADDVB" type="String"></property>
+  </class>
+</hibernate-mapping>
+

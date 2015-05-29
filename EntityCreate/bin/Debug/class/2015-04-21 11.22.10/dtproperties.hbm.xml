@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="dtproperties" table="dtproperties" lazy="true" >
+    <id name="id" column="id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="objectid" column="objectid" type="Int32"></property>
+    <property name="property" column="property" type="String"></property>
+    <property name="value" column="value" type="String"></property>
+    <property name="uvalue" column="uvalue" type="String"></property>
+    <property name="lvalue" column="lvalue" type="Byte[]"></property>
+    <property name="version" column="version" type="Int32"></property>
+  </class>
+</hibernate-mapping>
+

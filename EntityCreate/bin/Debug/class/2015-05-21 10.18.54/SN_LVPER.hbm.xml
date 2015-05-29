@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_LVPER" table="SN_LVPER" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="OBSHTZ" column="OBSHTZ" type="Decimal"></property>
+    <property name="HTZTM" column="HTZTM" type="String"></property>
+    <property name="OBSLTZ" column="OBSLTZ" type="Decimal"></property>
+    <property name="MNZTM" column="MNZTM" type="String"></property>
+    <property name="DRTM" column="DRTM" type="String"></property>
+    <property name="DRD" column="DRD" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

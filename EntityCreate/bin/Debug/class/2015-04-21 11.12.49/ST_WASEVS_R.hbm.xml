@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_WASEVS_R" table="ST_WASEVS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="HTUPZ" column="HTUPZ" type="Decimal"></property>
+    <property name="LTUPZ" column="LTUPZ" type="Decimal"></property>
+    <property name="MXGTQ" column="MXGTQ" type="Decimal"></property>
+    <property name="MNGTQ" column="MNGTQ" type="Decimal"></property>
+    <property name="HTDWZ" column="HTDWZ" type="Decimal"></property>
+    <property name="LTDWZ" column="LTDWZ" type="Decimal"></property>
+    <property name="HTUPZTM" column="HTUPZTM" type="DateTime"></property>
+    <property name="LTUPZTM" column="LTUPZTM" type="DateTime"></property>
+    <property name="MXGTQTM" column="MXGTQTM" type="DateTime"></property>
+    <property name="MNGTQTM" column="MNGTQTM" type="DateTime"></property>
+    <property name="HTDWZTM" column="HTDWZTM" type="DateTime"></property>
+    <property name="LTDWZTM" column="LTDWZTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

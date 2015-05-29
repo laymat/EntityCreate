@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_TIDEAV_R" table="ST_TIDEAV_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="AVHTDZ" column="AVHTDZ" type="Decimal"></property>
+    <property name="AVLTDZ" column="AVLTDZ" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

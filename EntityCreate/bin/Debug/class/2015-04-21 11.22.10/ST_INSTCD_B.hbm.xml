@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_INSTCD_B" table="ST_INSTCD_B" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="INSTNM" column="INSTNM" type="String"></property>
+    <property name="LOCALITY" column="LOCALITY" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

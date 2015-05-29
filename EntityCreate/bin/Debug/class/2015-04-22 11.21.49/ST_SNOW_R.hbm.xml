@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_SNOW_R" table="ST_SNOW_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="SNOWDEP" column="SNOWDEP" type="Decimal"></property>
+    <property name="SNOWDEN" column="SNOWDEN" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

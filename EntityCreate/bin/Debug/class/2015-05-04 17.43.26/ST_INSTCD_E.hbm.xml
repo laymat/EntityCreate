@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_INSTCD_E" table="ST_INSTCD_E" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="INSTNM" column="INSTNM" type="String"></property>
+    <property name="EXCTYPE" column="EXCTYPE" type="String"></property>
+    <property name="EXCIP" column="EXCIP" type="String"></property>
+    <property name="EXCPORT" column="EXCPORT" type="Decimal"></property>
+    <property name="EXCSRV" column="EXCSRV" type="String"></property>
+    <property name="WEBURL" column="WEBURL" type="String"></property>
+    <property name="PASSWORD" column="PASSWORD" type="String"></property>
+    <property name="ISSTARTS" column="ISSTARTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

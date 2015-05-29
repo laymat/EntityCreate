@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_STSMTASK_B" table="ST_STSMTASK_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="DFRTMS" column="DFRTMS" type="Decimal"></property>
+    <property name="PFL" column="PFL" type="String"></property>
+    <property name="EFL" column="EFL" type="String"></property>
+    <property name="ZFL" column="ZFL" type="String"></property>
+    <property name="QFL" column="QFL" type="String"></property>
+    <property name="WFL" column="WFL" type="String"></property>
+    <property name="INQFL" column="INQFL" type="String"></property>
+    <property name="DAMFL" column="DAMFL" type="String"></property>
+    <property name="OTQFL" column="OTQFL" type="String"></property>
+    <property name="WDWVFL" column="WDWVFL" type="String"></property>
+    <property name="SEDFL" column="SEDFL" type="String"></property>
+    <property name="ICEFL" column="ICEFL" type="String"></property>
+    <property name="PPFL" column="PPFL" type="String"></property>
+    <property name="DRNFL" column="DRNFL" type="String"></property>
+    <property name="SOILFL" column="SOILFL" type="String"></property>
+    <property name="GRWFL" column="GRWFL" type="String"></property>
+    <property name="STATFL" column="STATFL" type="String"></property>
+    <property name="OFFICER" column="OFFICER" type="String"></property>
+    <property name="MPHONE" column="MPHONE" type="String"></property>
+    <property name="SPHONE" column="SPHONE" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

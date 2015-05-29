@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_RSVREVS_R" table="ST_RSVREVS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="HTRZ" column="HTRZ" type="Decimal"></property>
+    <property name="LTRZ" column="LTRZ" type="Decimal"></property>
+    <property name="MXINQ" column="MXINQ" type="Decimal"></property>
+    <property name="MNINQ" column="MNINQ" type="Decimal"></property>
+    <property name="MXOTQ" column="MXOTQ" type="Decimal"></property>
+    <property name="MNOTQ" column="MNOTQ" type="Decimal"></property>
+    <property name="MXW" column="MXW" type="Decimal"></property>
+    <property name="MNW" column="MNW" type="Decimal"></property>
+    <property name="HTRZTM" column="HTRZTM" type="DateTime"></property>
+    <property name="LTRZTM" column="LTRZTM" type="DateTime"></property>
+    <property name="MXINQTM" column="MXINQTM" type="DateTime"></property>
+    <property name="MNINQTM" column="MNINQTM" type="DateTime"></property>
+    <property name="MXOTQTM" column="MXOTQTM" type="DateTime"></property>
+    <property name="MNOTQTM" column="MNOTQTM" type="DateTime"></property>
+    <property name="MXWTM" column="MXWTM" type="DateTime"></property>
+    <property name="MNWTM" column="MNWTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

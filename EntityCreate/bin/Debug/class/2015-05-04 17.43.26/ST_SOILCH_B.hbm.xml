@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_SOILCH_B" table="ST_SOILCH_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="SLTP" column="SLTP" type="String"></property>
+    <property name="SLTX" column="SLTX" type="String"></property>
+    <property name="SFBR" column="SFBR" type="String"></property>
+    <property name="SSPG" column="SSPG" type="Decimal"></property>
+    <property name="DSD" column="DSD" type="Decimal"></property>
+    <property name="SPOR" column="SPOR" type="Decimal"></property>
+    <property name="SHWC" column="SHWC" type="Decimal"></property>
+    <property name="FDCP" column="FDCP" type="Decimal"></property>
+    <property name="WLCP" column="WLCP" type="Decimal"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_PPTN_R" table="ST_PPTN_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="DRP" column="DRP" type="Decimal"></property>
+    <property name="INTV" column="INTV" type="Decimal"></property>
+    <property name="PDR" column="PDR" type="Decimal"></property>
+    <property name="DYP" column="DYP" type="Decimal"></property>
+    <property name="WTH" column="WTH" type="String"></property>
+  </class>
+</hibernate-mapping>
+

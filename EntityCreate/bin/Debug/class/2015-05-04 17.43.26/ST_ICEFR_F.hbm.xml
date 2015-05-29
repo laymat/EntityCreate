@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_ICEFR_F" table="ST_ICEFR_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="UNITNAME" column="UNITNAME" type="String"></property>
+    <property name="PLCD" column="PLCD" type="String"></property>
+    <property name="FYMDH" column="FYMDH" type="DateTime"></property>
+    <property name="IYMDH" column="IYMDH" type="DateTime"></property>
+    <property name="YMDH" column="YMDH" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="FICD" column="FICD" type="String"></property>
+    <property name="FIRPSTN" column="FIRPSTN" type="String"></property>
+    <property name="FRLDSTN" column="FRLDSTN" type="Decimal"></property>
+    <property name="FITHK" column="FITHK" type="Decimal"></property>
+    <property name="ITHKCD" column="ITHKCD" type="String"></property>
+    <property name="FIQ" column="FIQ" type="Decimal"></property>
+    <property name="IQPROP" column="IQPROP" type="String"></property>
+  </class>
+</hibernate-mapping>
+

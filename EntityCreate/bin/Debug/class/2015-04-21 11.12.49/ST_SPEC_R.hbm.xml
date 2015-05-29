@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_SPEC_R" table="ST_SPEC_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="TPCD" column="TPCD" type="String"></property>
+    <property name="PSTNCD" column="PSTNCD" type="String"></property>
+    <property name="RLDSTN" column="RLDSTN" type="Double"></property>
+    <property name="DEPTH" column="DEPTH" type="Double"></property>
+    <property name="HEIGHT" column="HEIGHT" type="Double"></property>
+    <property name="WIDTH" column="WIDTH" type="Double"></property>
+    <property name="Q" column="Q" type="Double"></property>
+    <property name="MSQMT" column="MSQMT" type="String"></property>
+    <property name="RSVRTP" column="RSVRTP" type="String"></property>
+  </class>
+</hibernate-mapping>
+

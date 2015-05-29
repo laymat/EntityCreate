@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_SENDSTAT_E" table="ST_SENDSTAT_E" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="COUNTDAY" column="COUNTDAY" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="FRGRD" column="FRGRD" type="String"></property>
+    <property name="OPERATION" column="OPERATION" type="String"></property>
+    <property name="INFTYPE" column="INFTYPE" type="String"></property>
+    <property name="STCDNUM" column="STCDNUM" type="Decimal"></property>
+    <property name="INFNUM" column="INFNUM" type="Decimal"></property>
+    <property name="COUNTL30" column="COUNTL30" type="Decimal"></property>
+    <property name="COUNTB60" column="COUNTB60" type="Decimal"></property>
+    <property name="COUNTT60" column="COUNTT60" type="Decimal"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

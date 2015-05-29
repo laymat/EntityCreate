@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_FRAPAR_B" table="ST_FRAPAR_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TPCYR" column="TPCYR" type="Decimal"></property>
+    <property name="AVRG" column="AVRG" type="Decimal"></property>
+    <property name="VARTP" column="VARTP" type="String"></property>
+    <property name="CV" column="CV" type="Decimal"></property>
+    <property name="CS" column="CS" type="Decimal"></property>
+    <property name="BGYR" column="BGYR" type="Decimal"></property>
+    <property name="EDYR" column="EDYR" type="Decimal"></property>
+    <property name="SPNUM" column="SPNUM" type="Decimal"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

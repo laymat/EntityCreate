@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_ADDVCD_D" table="ST_ADDVCD_D" lazy="true" >
+    <id name="ADDVCD" column="ADDVCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="ADDVNM" column="ADDVNM" type="String"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

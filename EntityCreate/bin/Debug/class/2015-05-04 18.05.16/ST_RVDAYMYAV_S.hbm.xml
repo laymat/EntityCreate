@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_RVDAYMYAV_S" table="ST_RVDAYMYAV_S" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="MNTH" column="MNTH" type="Decimal"></property>
+    <property name="DAY" column="DAY" type="Decimal"></property>
+    <property name="MYDAVZ" column="MYDAVZ" type="Decimal"></property>
+    <property name="MYDAVQ" column="MYDAVQ" type="Decimal"></property>
+    <property name="BGYR" column="BGYR" type="Decimal"></property>
+    <property name="EDYR" column="EDYR" type="Decimal"></property>
+    <property name="STTYRNUM" column="STTYRNUM" type="Decimal"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

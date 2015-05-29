@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_RFDR_F" table="ST_RFDR_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="FTM" column="FTM" type="DateTime"></property>
+    <property name="FRNF" column="FRNF" type="Double"></property>
+    <property name="FRNFDR" column="FRNFDR" type="Double"></property>
+    <property name="RLSTM" column="RLSTM" type="DateTime"></property>
+    <property name="RLSINSTCD" column="RLSINSTCD" type="String"></property>
+    <property name="DPNDST" column="DPNDST" type="String"></property>
+    <property name="REFTM" column="REFTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

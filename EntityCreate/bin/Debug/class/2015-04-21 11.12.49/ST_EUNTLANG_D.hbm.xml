@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_EUNTLANG_D" table="ST_EUNTLANG_D" lazy="true" >
+    <id name="FLID" column="FLID" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="EUCD" column="EUCD" type="String"></property>
+    <property name="NTLANG" column="NTLANG" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

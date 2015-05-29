@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_ZQFRAR_B" table="ST_ZQFRAR_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TPCYR" column="TPCYR" type="Int32"></property>
+    <property name="RCINT" column="RCINT" type="Int32"></property>
+    <property name="Q" column="Q" type="Double"></property>
+    <property name="Z" column="Z" type="Double"></property>
+    <property name="W1" column="W1" type="Double"></property>
+    <property name="W3" column="W3" type="Double"></property>
+    <property name="W5" column="W5" type="Double"></property>
+    <property name="W7" column="W7" type="Double"></property>
+    <property name="W10" column="W10" type="Double"></property>
+    <property name="W15" column="W15" type="Double"></property>
+    <property name="W30" column="W30" type="Double"></property>
+    <property name="W60" column="W60" type="Double"></property>
+  </class>
+</hibernate-mapping>
+

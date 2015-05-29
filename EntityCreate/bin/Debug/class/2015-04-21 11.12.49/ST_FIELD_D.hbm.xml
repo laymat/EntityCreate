@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_FIELD_D" table="ST_FIELD_D" lazy="true" >
+    <id name="TABID" column="TABID" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="FLID" column="FLID" type="String"></property>
+    <property name="FLSID" column="FLSID" type="Decimal"></property>
+    <property name="FLCN" column="FLCN" type="String"></property>
+    <property name="FLEN" column="FLEN" type="String"></property>
+    <property name="FLTL" column="FLTL" type="String"></property>
+    <property name="NLAT" column="NLAT" type="String"></property>
+    <property name="UNNM" column="UNNM" type="String"></property>
+    <property name="FCHSC" column="FCHSC" type="String"></property>
+    <property name="EUFL" column="EUFL" type="String"></property>
+    <property name="PKAT" column="PKAT" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

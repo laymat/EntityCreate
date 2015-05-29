@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_PMEVS_R" table="ST_PMEVS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="PPUPHTZ" column="PPUPHTZ" type="Decimal"></property>
+    <property name="PPUPLTZ" column="PPUPLTZ" type="Decimal"></property>
+    <property name="PPDWHTZ" column="PPDWHTZ" type="Decimal"></property>
+    <property name="PPDWLTZ" column="PPDWLTZ" type="Decimal"></property>
+    <property name="MXPPQ" column="MXPPQ" type="Decimal"></property>
+    <property name="MNPPQ" column="MNPPQ" type="Decimal"></property>
+    <property name="MXDNQ" column="MXDNQ" type="Decimal"></property>
+    <property name="MNDNQ" column="MNDNQ" type="Decimal"></property>
+    <property name="PPUPHTZTM" column="PPUPHTZTM" type="DateTime"></property>
+    <property name="PPUPLTZTM" column="PPUPLTZTM" type="DateTime"></property>
+    <property name="PPDWHTZTM" column="PPDWHTZTM" type="DateTime"></property>
+    <property name="PPDWLTZTM" column="PPDWLTZTM" type="DateTime"></property>
+    <property name="MXPPQTM" column="MXPPQTM" type="DateTime"></property>
+    <property name="MNPPQTM" column="MNPPQTM" type="DateTime"></property>
+    <property name="MXDNQTM" column="MXDNQTM" type="DateTime"></property>
+    <property name="MNDNQTM" column="MNDNQTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

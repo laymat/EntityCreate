@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_EVPPER" table="SN_EVPPER" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="EPTP" column="EPTP" type="String"></property>
+    <property name="MYAVE" column="MYAVE" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

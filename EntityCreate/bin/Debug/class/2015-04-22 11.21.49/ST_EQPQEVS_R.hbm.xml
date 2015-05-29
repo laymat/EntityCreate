@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_EQPQEVS_R" table="ST_EQPQEVS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="EQPTP" column="EQPTP" type="String"></property>
+    <property name="EQPNO" column="EQPNO" type="String"></property>
+    <property name="MXGTOPNUM" column="MXGTOPNUM" type="Int32"></property>
+    <property name="MXGTOPHGT" column="MXGTOPHGT" type="Double"></property>
+    <property name="MXGTQ" column="MXGTQ" type="Double"></property>
+    <property name="MNGTOPNUM" column="MNGTOPNUM" type="Int32"></property>
+    <property name="MNGTOPHGT" column="MNGTOPHGT" type="Double"></property>
+    <property name="MNGTQ" column="MNGTQ" type="Double"></property>
+    <property name="MXGTQTM" column="MXGTQTM" type="DateTime"></property>
+    <property name="MNGTQTM" column="MNGTQTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

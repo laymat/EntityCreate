@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_INSTCD_OLD_B" table="ST_INSTCD_OLD_B" lazy="true" >
+    <id name="RLSINSTCD" column="RLSINSTCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="INSTNM" column="INSTNM" type="String"></property>
+    <property name="ADMAUTH" column="ADMAUTH" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_SEDRF_F" table="ST_SEDRF_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="FTM" column="FTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="FWRNF" column="FWRNF" type="Double"></property>
+    <property name="FSEDRNF" column="FSEDRNF" type="Double"></property>
+    <property name="RLSTM" column="RLSTM" type="DateTime"></property>
+    <property name="RLSINSTCD" column="RLSINSTCD" type="String"></property>
+    <property name="DPNDST" column="DPNDST" type="String"></property>
+    <property name="REFTM" column="REFTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

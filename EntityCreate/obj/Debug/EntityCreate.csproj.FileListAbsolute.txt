@@ -1,0 +1,16 @@
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\bin\Debug\EntityCreate.exe
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\bin\Debug\EntityCreate.pdb
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.MainFrm.resources
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.Properties.Resources.resources
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.csproj.GenerateResource.Cache
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.exe
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.pdb
+C:\Users\smailook\Desktop\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.csprojResolveAssemblyReference.cache
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.exe
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.pdb
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\bin\Debug\EntityCreate.exe
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\bin\Debug\EntityCreate.pdb
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.MainFrm.resources
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.Properties.Resources.resources
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.csproj.GenerateResource.Cache
+C:\Users\Smailook\Desktop\source\Project\EntityCreate\EntityCreate\obj\Debug\EntityCreate.csprojResolveAssemblyReference.cache

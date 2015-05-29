@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_RECVFILE_E" table="ST_RECVFILE_E" lazy="true" >
+    <id name="RFNUM" column="RFNUM" type="Decimal">
+      <generator class="identity" />
+    </id>
+    <property name="INSTCD" column="INSTCD" type="String"></property>
+    <property name="RECVTYPE" column="RECVTYPE" type="String"></property>
+    <property name="RECVSTATUS" column="RECVSTATUS" type="String"></property>
+    <property name="RFILENAME" column="RFILENAME" type="String"></property>
+    <property name="RECVTM" column="RECVTM" type="DateTime"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

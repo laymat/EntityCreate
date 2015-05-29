@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SYSTEMMENUITEM" table="SYSTEMMENUITEM" lazy="true" >
+    <id name="NODEID" column="NODEID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="NODENAME" column="NODENAME" type="String"></property>
+    <property name="MENUID" column="MENUID" type="Decimal"></property>
+    <property name="NODETYPE" column="NODETYPE" type="Decimal"></property>
+    <property name="NODEURL" column="NODEURL" type="String"></property>
+    <property name="NODESORT" column="NODESORT" type="Decimal"></property>
+    <property name="ISENABLE" column="ISENABLE" type="Decimal"></property>
+    <property name="NODEDESCRIPTION" column="NODEDESCRIPTION" type="String"></property>
+  </class>
+</hibernate-mapping>
+

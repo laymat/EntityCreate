@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_ASTROTD_F" table="ST_ASTROTD_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="YMDH" column="YMDH" type="DateTime"></property>
+    <property name="TDZ" column="TDZ" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_GATE_R" table="ST_GATE_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="EQPTP" column="EQPTP" type="String"></property>
+    <property name="EQPNO" column="EQPNO" type="String"></property>
+    <property name="GTOPNUM" column="GTOPNUM" type="Decimal"></property>
+    <property name="GTOPHGT" column="GTOPHGT" type="Decimal"></property>
+    <property name="GTQ" column="GTQ" type="Decimal"></property>
+    <property name="MSQMT" column="MSQMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

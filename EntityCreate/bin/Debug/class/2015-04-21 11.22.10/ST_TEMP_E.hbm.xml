@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_TEMP_E" table="ST_TEMP_E" lazy="true" >
+    <id name="TYPE" column="TYPE" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="NUM1" column="NUM1" type="Decimal"></property>
+    <property name="NUM2" column="NUM2" type="Decimal"></property>
+    <property name="STR1" column="STR1" type="String"></property>
+    <property name="STR2" column="STR2" type="String"></property>
+    <property name="TM1" column="TM1" type="DateTime"></property>
+    <property name="TM2" column="TM2" type="DateTime"></property>
+    <property name="INSTCD" column="INSTCD" type="String"></property>
+    <property name="WATCHTYPE" column="WATCHTYPE" type="String"></property>
+    <property name="SD1" column="SD1" type="Decimal"></property>
+    <property name="SD2" column="SD2" type="Decimal"></property>
+    <property name="SD3" column="SD3" type="Decimal"></property>
+    <property name="SF1" column="SF1" type="Decimal"></property>
+    <property name="SF2" column="SF2" type="Decimal"></property>
+    <property name="SF3" column="SF3" type="Decimal"></property>
+    <property name="RF1" column="RF1" type="Decimal"></property>
+    <property name="RF2" column="RF2" type="Decimal"></property>
+    <property name="RD0" column="RD0" type="Decimal"></property>
+    <property name="RD1" column="RD1" type="Decimal"></property>
+    <property name="RD2" column="RD2" type="Decimal"></property>
+    <property name="RD3" column="RD3" type="Decimal"></property>
+    <property name="RD4" column="RD4" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

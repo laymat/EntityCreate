@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_TABLE_E" table="ST_TABLE_E" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TABID" column="TABID" type="String"></property>
+    <property name="ISSTARTS" column="ISSTARTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

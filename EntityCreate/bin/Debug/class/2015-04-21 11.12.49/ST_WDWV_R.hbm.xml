@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_WDWV_R" table="ST_WDWV_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="WNDPWR" column="WNDPWR" type="Decimal"></property>
+    <property name="WNDV" column="WNDV" type="Decimal"></property>
+    <property name="WNDDIR" column="WNDDIR" type="String"></property>
+    <property name="WVHGT" column="WVHGT" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

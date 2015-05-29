@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_RNFL_F" table="ST_RNFL_F" lazy="true" >
+    <id name="FAREACD" column="FAREACD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="FTM" column="FTM" type="DateTime"></property>
+    <property name="FP" column="FP" type="Int32"></property>
+    <property name="FPDR" column="FPDR" type="Int32"></property>
+    <property name="FRNTDCD" column="FRNTDCD" type="String"></property>
+    <property name="FDT" column="FDT" type="DateTime"></property>
+    <property name="RLSTM" column="RLSTM" type="DateTime"></property>
+    <property name="RLSINSTCD" column="RLSINSTCD" type="String"></property>
+    <property name="REFTM" column="REFTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

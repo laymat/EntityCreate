@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SYSTEMPARTS" table="SYSTEMPARTS" lazy="true" >
+    <id name="PARTID" column="PARTID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="PARTNAME" column="PARTNAME" type="String"></property>
+    <property name="PARTDESCRIPTION" column="PARTDESCRIPTION" type="String"></property>
+    <property name="PARTSORT" column="PARTSORT" type="Decimal"></property>
+    <property name="CREATDATE" column="CREATDATE" type="DateTime"></property>
+    <property name="ORGTP" column="ORGTP" type="Decimal"></property>
+    <property name="ORGID" column="ORGID" type="String"></property>
+  </class>
+</hibernate-mapping>
+

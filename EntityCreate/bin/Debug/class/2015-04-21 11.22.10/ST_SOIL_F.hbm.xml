@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_SOIL_F" table="ST_SOIL_F" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="FTM" column="FTM" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="FAVSLM" column="FAVSLM" type="Double"></property>
+    <property name="FSFLSLM" column="FSFLSLM" type="Double"></property>
+    <property name="FSLM10" column="FSLM10" type="Double"></property>
+    <property name="FSLM20" column="FSLM20" type="Double"></property>
+    <property name="FSLM30" column="FSLM30" type="Double"></property>
+    <property name="FSLM40" column="FSLM40" type="Double"></property>
+    <property name="FSLM50" column="FSLM50" type="Double"></property>
+    <property name="FSLM60" column="FSLM60" type="Double"></property>
+    <property name="FSLM70" column="FSLM70" type="Double"></property>
+    <property name="FSLM80" column="FSLM80" type="Double"></property>
+    <property name="FSLM90" column="FSLM90" type="Double"></property>
+    <property name="FSLM100" column="FSLM100" type="Double"></property>
+    <property name="FSLM110" column="FSLM110" type="Double"></property>
+    <property name="RLSTM" column="RLSTM" type="DateTime"></property>
+    <property name="RLSINSTCD" column="RLSINSTCD" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_SPFAEQ" table="SN_SPFAEQ" lazy="true" >
+    <id name="SPNM" column="SPNM" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="MDCW" column="MDCW" type="Decimal"></property>
+    <property name="HDCW" column="HDCW" type="Decimal"></property>
+    <property name="CBCAR" column="CBCAR" type="Decimal"></property>
+    <property name="MSCW" column="MSCW" type="Decimal"></property>
+    <property name="MDMB" column="MDMB" type="Decimal"></property>
+    <property name="NMDMB" column="NMDMB" type="Decimal"></property>
+    <property name="MT65MB" column="MT65MB" type="Decimal"></property>
+    <property name="SPRG" column="SPRG" type="Decimal"></property>
+    <property name="BUPR" column="BUPR" type="Decimal"></property>
+    <property name="SPEBRG" column="SPEBRG" type="Decimal"></property>
+    <property name="GECM" column="GECM" type="Decimal"></property>
+    <property name="NTCM" column="NTCM" type="Decimal"></property>
+    <property name="EWCM" column="EWCM" type="Decimal"></property>
+    <property name="AEROCM" column="AEROCM" type="Decimal"></property>
+    <property name="USDF" column="USDF" type="Decimal"></property>
+    <property name="HYBD" column="HYBD" type="Decimal"></property>
+    <property name="LVIS" column="LVIS" type="Decimal"></property>
+    <property name="TRANSIT" column="TRANSIT" type="Decimal"></property>
+    <property name="ETST" column="ETST" type="Decimal"></property>
+    <property name="GPS" column="GPS" type="Decimal"></property>
+    <property name="OTHSD" column="OTHSD" type="Decimal"></property>
+    <property name="BCST" column="BCST" type="Decimal"></property>
+    <property name="SLTP" column="SLTP" type="Decimal"></property>
+    <property name="STCP" column="STCP" type="Decimal"></property>
+    <property name="NPCP" column="NPCP" type="Decimal"></property>
+    <property name="SRCP" column="SRCP" type="Decimal"></property>
+    <property name="VEHIDE" column="VEHIDE" type="Decimal"></property>
+    <property name="WQMV" column="WQMV" type="Decimal"></property>
+    <property name="MTCY" column="MTCY" type="Decimal"></property>
+    <property name="TBDA" column="TBDA" type="Decimal"></property>
+    <property name="PWBDA" column="PWBDA" type="Decimal"></property>
+    <property name="PDBDA" column="PDBDA" type="Decimal"></property>
+    <property name="HBDA" column="HBDA" type="Decimal"></property>
+    <property name="NT" column="NT" type="String"></property>
+    <property name="BLORG" column="BLORG" type="String"></property>
+  </class>
+</hibernate-mapping>
+

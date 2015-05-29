@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_ENNMCD_D" table="ST_ENNMCD_D" lazy="true" >
+    <id name="ENNMCD" column="ENNMCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="BSNM" column="BSNM" type="String"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

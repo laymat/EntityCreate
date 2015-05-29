@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_TABLE_D" table="ST_TABLE_D" lazy="true" >
+    <id name="TABID" column="TABID" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TABNO" column="TABNO" type="String"></property>
+    <property name="TABCN" column="TABCN" type="String"></property>
+    <property name="TABEN" column="TABEN" type="String"></property>
+    <property name="EXCHFL" column="EXCHFL" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

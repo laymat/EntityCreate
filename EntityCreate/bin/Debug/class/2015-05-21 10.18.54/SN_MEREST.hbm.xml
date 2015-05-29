@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_MEREST" table="SN_MEREST" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="MEAITEM" column="MEAITEM" type="String"></property>
+    <property name="MEAST" column="MEAST" type="String"></property>
+    <property name="RESST" column="RESST" type="String"></property>
+  </class>
+</hibernate-mapping>
+

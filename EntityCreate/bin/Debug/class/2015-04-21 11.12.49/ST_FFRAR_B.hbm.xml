@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_FFRAR_B" table="ST_FFRAR_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TPCYR" column="TPCYR" type="Decimal"></property>
+    <property name="RCINT" column="RCINT" type="Decimal"></property>
+    <property name="Q" column="Q" type="Decimal"></property>
+    <property name="Z" column="Z" type="Decimal"></property>
+    <property name="W1" column="W1" type="Decimal"></property>
+    <property name="W3" column="W3" type="Decimal"></property>
+    <property name="W5" column="W5" type="Decimal"></property>
+    <property name="W7" column="W7" type="Decimal"></property>
+    <property name="W10" column="W10" type="Decimal"></property>
+    <property name="W15" column="W15" type="Decimal"></property>
+    <property name="W30" column="W30" type="Decimal"></property>
+    <property name="W60" column="W60" type="Decimal"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

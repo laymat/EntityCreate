@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_GRWEVS_R" table="ST_GRWEVS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="MXBD" column="MXBD" type="Decimal"></property>
+    <property name="MNBD" column="MNBD" type="Decimal"></property>
+    <property name="MXSPQ" column="MXSPQ" type="Decimal"></property>
+    <property name="MNSPQ" column="MNSPQ" type="Decimal"></property>
+    <property name="MXGWTMP" column="MXGWTMP" type="Decimal"></property>
+    <property name="MNGWTMP" column="MNGWTMP" type="Decimal"></property>
+    <property name="MXBDTM" column="MXBDTM" type="DateTime"></property>
+    <property name="MNBDTM" column="MNBDTM" type="DateTime"></property>
+    <property name="MXSPQTM" column="MXSPQTM" type="DateTime"></property>
+    <property name="MNSPQTM" column="MNSPQTM" type="DateTime"></property>
+    <property name="MXGWTMPTM" column="MXGWTMPTM" type="DateTime"></property>
+    <property name="MNGWTMPTM" column="MNGWTMPTM" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

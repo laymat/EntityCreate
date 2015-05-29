@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_ZVARL_B" table="ST_ZVARL_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="MSTM" column="MSTM" type="DateTime"></property>
+    <property name="RZ" column="RZ" type="Decimal"></property>
+    <property name="W" column="W" type="Decimal"></property>
+    <property name="WSFA" column="WSFA" type="Decimal"></property>
+    <property name="PTNO" column="PTNO" type="Decimal"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

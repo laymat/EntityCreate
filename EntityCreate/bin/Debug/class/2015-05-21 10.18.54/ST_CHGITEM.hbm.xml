@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="ST_CHGITEM" table="ST_CHGITEM" lazy="true" >
+    <id name="ID" column="ID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="CHG_ID" column="CHG_ID" type="String"></property>
+    <property name="FLNM" column="FLNM" type="String"></property>
+    <property name="FLUR" column="FLUR" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_NETSTAT_E" table="ST_NETSTAT_E" lazy="true" >
+    <id name="INSTCD" column="INSTCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="CHANGETIME" column="CHANGETIME" type="DateTime"></property>
+    <property name="NETTYPE" column="NETTYPE" type="String"></property>
+    <property name="NETSTATUS" column="NETSTATUS" type="String"></property>
+  </class>
+</hibernate-mapping>
+

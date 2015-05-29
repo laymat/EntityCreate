@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1.Models" namespace="MvcApplication1.Models">
+  <class name="ST_SENDFILE_E" table="ST_SENDFILE_E" lazy="true" >
+    <id name="SFNUM" column="SFNUM" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="INSTCD" column="INSTCD" type="String"></property>
+    <property name="SENDTYPE" column="SENDTYPE" type="String"></property>
+    <property name="SENDSTATUS" column="SENDSTATUS" type="String"></property>
+    <property name="SFILENAME" column="SFILENAME" type="String"></property>
+    <property name="SENDTM" column="SENDTM" type="DateTime"></property>
+    <property name="SENDCOUNT" column="SENDCOUNT" type="Decimal"></property>
+    <property name="ERRLINE" column="ERRLINE" type="Decimal"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

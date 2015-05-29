@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_WAS_R" table="ST_WAS_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="UPZ" column="UPZ" type="Decimal"></property>
+    <property name="DWZ" column="DWZ" type="Decimal"></property>
+    <property name="TGTQ" column="TGTQ" type="Decimal"></property>
+    <property name="SWCHRCD" column="SWCHRCD" type="String"></property>
+    <property name="SUPWPTN" column="SUPWPTN" type="String"></property>
+    <property name="SDWWPTN" column="SDWWPTN" type="String"></property>
+    <property name="MSQMT" column="MSQMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

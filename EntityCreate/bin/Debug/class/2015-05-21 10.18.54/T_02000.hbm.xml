@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="T_02000" table="T_02000" lazy="true" >
+    <id name="ID" column="ID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="NAME" column="NAME" type="String"></property>
+    <property name="AREA" column="AREA" type="Decimal"></property>
+    <property name="BOX" column="BOX" type="String"></property>
+    <property name="CODE" column="CODE" type="String"></property>
+    <property name="LEVEL1" column="LEVEL1" type="Decimal"></property>
+    <property name="PCOUNT" column="PCOUNT" type="Decimal"></property>
+    <property name="COORDINATES" column="COORDINATES" type="String"></property>
+  </class>
+</hibernate-mapping>
+

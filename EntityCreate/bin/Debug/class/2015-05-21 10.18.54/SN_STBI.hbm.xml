@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_STBI" table="SN_STBI" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="STNM" column="STNM" type="String"></property>
+    <property name="RVNM" column="RVNM" type="String"></property>
+    <property name="HNCD" column="HNCD" type="String"></property>
+    <property name="BSCD" column="BSCD" type="String"></property>
+    <property name="DRNA" column="DRNA" type="Decimal"></property>
+    <property name="ESSTYR" column="ESSTYR" type="Decimal"></property>
+    <property name="ESSTMTH" column="ESSTMTH" type="Decimal"></property>
+    <property name="STTP" column="STTP" type="String"></property>
+    <property name="ADMTP" column="ADMTP" type="String"></property>
+    <property name="STPROP" column="STPROP" type="String"></property>
+    <property name="STSCTP" column="STSCTP" type="String"></property>
+    <property name="FIREP" column="FIREP" type="String"></property>
+    <property name="PROVCD" column="PROVCD" type="String"></property>
+    <property name="CITYCD" column="CITYCD" type="String"></property>
+    <property name="COUTCD" column="COUTCD" type="String"></property>
+    <property name="STLC" column="STLC" type="String"></property>
+    <property name="ADDVCD" column="ADDVCD" type="String"></property>
+    <property name="LGTD" column="LGTD" type="Decimal"></property>
+    <property name="LTTD" column="LTTD" type="Decimal"></property>
+    <property name="STEL" column="STEL" type="Decimal"></property>
+    <property name="DTMNM" column="DTMNM" type="String"></property>
+    <property name="DTMMDPR" column="DTMMDPR" type="Decimal"></property>
+    <property name="REGBOD" column="REGBOD" type="String"></property>
+    <property name="COUNORG" column="COUNORG" type="String"></property>
+    <property name="ADMORGHYD" column="ADMORGHYD" type="String"></property>
+    <property name="ADMORGOTH" column="ADMORGOTH" type="String"></property>
+    <property name="ADMST" column="ADMST" type="String"></property>
+    <property name="SURPT" column="SURPT" type="String"></property>
+    <property name="MEAITEM" column="MEAITEM" type="String"></property>
+    <property name="BLORG" column="BLORG" type="String"></property>
+    <property name="RPORG" column="RPORG" type="String"></property>
+    <property name="NT" column="NT" type="String"></property>
+    <property name="STATE" column="STATE" type="Decimal"></property>
+    <property name="WRITEMAN" column="WRITEMAN" type="String"></property>
+    <property name="WRITEDATE" column="WRITEDATE" type="DateTime"></property>
+    <property name="AUDITEMAN" column="AUDITEMAN" type="String"></property>
+    <property name="AUDITEDATE" column="AUDITEDATE" type="DateTime"></property>
+    <property name="SUBMITUNIT" column="SUBMITUNIT" type="String"></property>
+    <property name="TELEPHONE" column="TELEPHONE" type="String"></property>
+    <property name="PRNM" column="PRNM" type="String"></property>
+    <property name="MEACHINESE" column="MEACHINESE" type="String"></property>
+    <property name="ANGLE" column="ANGLE" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

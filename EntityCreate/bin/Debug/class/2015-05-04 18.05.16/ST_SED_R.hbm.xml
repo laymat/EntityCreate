@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_SED_R" table="ST_SED_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="S" column="S" type="Decimal"></property>
+    <property name="SCHRCD" column="SCHRCD" type="String"></property>
+    <property name="SMT" column="SMT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_WDPSTAT_R" table="ST_WDPSTAT_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="IDTM" column="IDTM" type="DateTime"></property>
+    <property name="STTDRCD" column="STTDRCD" type="String"></property>
+    <property name="PPTMS" column="PPTMS" type="Decimal"></property>
+    <property name="ACCPW" column="ACCPW" type="Double"></property>
+    <property name="PPHRS" column="PPHRS" type="Decimal"></property>
+    <property name="DRNTMS" column="DRNTMS" type="Decimal"></property>
+    <property name="ACCDW" column="ACCDW" type="Double"></property>
+    <property name="DRNHRS" column="DRNHRS" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

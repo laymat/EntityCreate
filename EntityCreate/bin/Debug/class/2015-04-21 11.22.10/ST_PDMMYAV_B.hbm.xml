@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_PDMMYAV_B" table="ST_PDMMYAV_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="SRNO" column="SRNO" type="String"></property>
+    <property name="MNTH" column="MNTH" type="Int32"></property>
+    <property name="PRDTP" column="PRDTP" type="Int32"></property>
+    <property name="MYAVP" column="MYAVP" type="Double"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SYSTEMLOG" table="SYSTEMLOG" lazy="true" >
+    <id name="SYSLOGID" column="SYSLOGID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="LOGTYPE" column="LOGTYPE" type="String"></property>
+    <property name="LOGFORM" column="LOGFORM" type="String"></property>
+    <property name="CONTENT" column="CONTENT" type="String"></property>
+    <property name="LOGTIME" column="LOGTIME" type="DateTime"></property>
+    <property name="USERNAME" column="USERNAME" type="String"></property>
+    <property name="MENUID" column="MENUID" type="Decimal"></property>
+    <property name="GUID" column="GUID" type="String"></property>
+    <property name="SYSTEMNAME" column="SYSTEMNAME" type="String"></property>
+  </class>
+</hibernate-mapping>
+

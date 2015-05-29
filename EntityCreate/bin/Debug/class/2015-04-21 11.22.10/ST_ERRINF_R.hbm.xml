@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_ERRINF_R" table="ST_ERRINF_R" lazy="true" >
+    <id name="PRFIXNO" column="PRFIXNO" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="PROCDT" column="PROCDT" type="DateTime"></property>
+    <property name="MDFMK" column="MDFMK" type="String"></property>
+    <property name="ERRMAIN" column="ERRMAIN" type="String"></property>
+    <property name="ERRCD" column="ERRCD" type="String"></property>
+    <property name="ERRPSTN" column="ERRPSTN" type="Int32"></property>
+    <property name="ERRTEXT" column="ERRTEXT" type="String"></property>
+    <property name="UID" column="UID" type="String"></property>
+    <property name="MODIFYDT" column="MODIFYDT" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

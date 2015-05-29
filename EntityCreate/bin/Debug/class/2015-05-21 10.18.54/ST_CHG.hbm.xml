@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="ST_CHG" table="ST_CHG" lazy="true" >
+    <id name="ID" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="OPTY" column="OPTY" type="Decimal"></property>
+    <property name="STLV" column="STLV" type="Decimal"></property>
+    <property name="STNM" column="STNM" type="String"></property>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="STTP" column="STTP" type="String"></property>
+    <property name="ORGTP" column="ORGTP" type="Decimal"></property>
+    <property name="ORGID" column="ORGID" type="String"></property>
+    <property name="BLORG" column="BLORG" type="String"></property>
+    <property name="EARS" column="EARS" type="String"></property>
+    <property name="EADT" column="EADT" type="DateTime"></property>
+    <property name="STATE" column="STATE" type="Decimal"></property>
+    <property name="DWMN" column="DWMN" type="String"></property>
+    <property name="WRMN" column="WRMN" type="String"></property>
+    <property name="WRDT" column="WRDT" type="DateTime"></property>
+    <property name="ADMN" column="ADMN" type="String"></property>
+    <property name="ADDT" column="ADDT" type="DateTime"></property>
+    <property name="APMN" column="APMN" type="String"></property>
+    <property name="APDT" column="APDT" type="DateTime"></property>
+    <property name="ADIA" column="ADIA" type="String"></property>
+    <property name="APIA" column="APIA" type="String"></property>
+  </class>
+</hibernate-mapping>
+

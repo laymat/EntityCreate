@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_STCHG" table="SN_STCHG" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="CHGNO" column="CHGNO" type="Decimal"></property>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="STNM" column="STNM" type="String"></property>
+    <property name="RVNM" column="RVNM" type="String"></property>
+    <property name="HNCD" column="HNCD" type="String"></property>
+    <property name="BSCD" column="BSCD" type="String"></property>
+    <property name="DRNA" column="DRNA" type="Decimal"></property>
+    <property name="ESSTYR" column="ESSTYR" type="Decimal"></property>
+    <property name="ESSTMTH" column="ESSTMTH" type="Decimal"></property>
+    <property name="CHGYR" column="CHGYR" type="Decimal"></property>
+    <property name="CHGMTH" column="CHGMTH" type="Decimal"></property>
+    <property name="AUTHORG" column="AUTHORG" type="String"></property>
+    <property name="CHGCIR" column="CHGCIR" type="String"></property>
+    <property name="CHGREA" column="CHGREA" type="String"></property>
+    <property name="ADMTP" column="ADMTP" type="String"></property>
+    <property name="STPROP" column="STPROP" type="String"></property>
+    <property name="STLC" column="STLC" type="String"></property>
+    <property name="ADDVCD" column="ADDVCD" type="String"></property>
+    <property name="LGTD" column="LGTD" type="Decimal"></property>
+    <property name="LTTD" column="LTTD" type="Decimal"></property>
+    <property name="ADMORGHYD" column="ADMORGHYD" type="String"></property>
+    <property name="ADMORGOTH" column="ADMORGOTH" type="String"></property>
+    <property name="NT" column="NT" type="String"></property>
+  </class>
+</hibernate-mapping>
+

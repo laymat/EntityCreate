@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_STBPRP_B" table="ST_STBPRP_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="STNM" column="STNM" type="String"></property>
+    <property name="RVNM" column="RVNM" type="String"></property>
+    <property name="HNNM" column="HNNM" type="String"></property>
+    <property name="BSNM" column="BSNM" type="String"></property>
+    <property name="LGTD_OLD" column="LGTD_OLD" type="String"></property>
+    <property name="LTTD_OLD" column="LTTD_OLD" type="String"></property>
+    <property name="STLC" column="STLC" type="String"></property>
+    <property name="ADDVCD" column="ADDVCD" type="String"></property>
+    <property name="MDBZ" column="MDBZ" type="Double"></property>
+    <property name="MDPR" column="MDPR" type="Double"></property>
+    <property name="DTMNM" column="DTMNM" type="String"></property>
+    <property name="DTMEL" column="DTMEL" type="Decimal"></property>
+    <property name="STTP" column="STTP" type="String"></property>
+    <property name="DFRTMS" column="DFRTMS" type="Int32"></property>
+    <property name="FRITM" column="FRITM" type="String"></property>
+    <property name="FRGRD" column="FRGRD" type="String"></property>
+    <property name="BGFRYM" column="BGFRYM" type="String"></property>
+    <property name="EDFRYM" column="EDFRYM" type="String"></property>
+    <property name="ADMAUTH" column="ADMAUTH" type="String"></property>
+    <property name="STBK" column="STBK" type="String"></property>
+    <property name="DRNA" column="DRNA" type="Decimal"></property>
+    <property name="PHCD" column="PHCD" type="String"></property>
+    <property name="LGTD" column="LGTD" type="Decimal"></property>
+    <property name="LTTD" column="LTTD" type="Decimal"></property>
+    <property name="DTPR" column="DTPR" type="Decimal"></property>
+    <property name="ESSTYM" column="ESSTYM" type="String"></property>
+    <property name="ATCUNIT" column="ATCUNIT" type="String"></property>
+    <property name="LOCALITY" column="LOCALITY" type="String"></property>
+    <property name="STAZT" column="STAZT" type="Decimal"></property>
+    <property name="DSTRVM" column="DSTRVM" type="Decimal"></property>
+    <property name="USFL" column="USFL" type="String"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

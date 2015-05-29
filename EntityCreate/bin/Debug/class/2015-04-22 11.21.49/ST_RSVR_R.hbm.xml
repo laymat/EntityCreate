@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_RSVR_R" table="ST_RSVR_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="RZ" column="RZ" type="Decimal"></property>
+    <property name="INQ" column="INQ" type="Decimal"></property>
+    <property name="W" column="W" type="Decimal"></property>
+    <property name="OTQ" column="OTQ" type="Decimal"></property>
+    <property name="RWCHRCD" column="RWCHRCD" type="String"></property>
+    <property name="RWPTN" column="RWPTN" type="String"></property>
+    <property name="INQDR" column="INQDR" type="Decimal"></property>
+    <property name="MSQMT" column="MSQMT" type="String"></property>
+    <property name="BLRZ" column="BLRZ" type="Decimal"></property>
+  </class>
+</hibernate-mapping>
+

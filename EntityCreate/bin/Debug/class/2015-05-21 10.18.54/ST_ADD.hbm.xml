@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="ST_ADD" table="ST_ADD" lazy="true" >
+    <id name="ID" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STNM" column="STNM" type="String"></property>
+    <property name="STTP" column="STTP" type="String"></property>
+    <property name="LGTD" column="LGTD" type="Decimal"></property>
+    <property name="LTTD" column="LTTD" type="Decimal"></property>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="CITY" column="CITY" type="String"></property>
+    <property name="COUNTY" column="COUNTY" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SYSTEMMENU" table="SYSTEMMENU" lazy="true" >
+    <id name="MENUID" column="MENUID" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="MENUNAME" column="MENUNAME" type="String"></property>
+    <property name="SYSTEMNAME" column="SYSTEMNAME" type="String"></property>
+    <property name="SUPERMENUID" column="SUPERMENUID" type="String"></property>
+    <property name="MENUSORT" column="MENUSORT" type="Decimal"></property>
+    <property name="DATABASETABLE" column="DATABASETABLE" type="String"></property>
+    <property name="MENUURL" column="MENUURL" type="String"></property>
+    <property name="ISMASK" column="ISMASK" type="Decimal"></property>
+    <property name="MENUTYPE" column="MENUTYPE" type="Decimal"></property>
+    <property name="ICON" column="ICON" type="String"></property>
+  </class>
+</hibernate-mapping>
+

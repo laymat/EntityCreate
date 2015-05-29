@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_RVYEVSQ_S" table="ST_RVYEVSQ_S" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="YR" column="YR" type="Decimal"></property>
+    <property name="HTZ" column="HTZ" type="Decimal"></property>
+    <property name="HTZTM" column="HTZTM" type="DateTime"></property>
+    <property name="MXQ" column="MXQ" type="Decimal"></property>
+    <property name="MXQTM" column="MXQTM" type="DateTime"></property>
+    <property name="LTZ" column="LTZ" type="Decimal"></property>
+    <property name="LTZTM" column="LTZTM" type="DateTime"></property>
+    <property name="MNQ" column="MNQ" type="Decimal"></property>
+    <property name="MNQTM" column="MNQTM" type="DateTime"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

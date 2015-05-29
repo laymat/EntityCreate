@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_QTICEINF_R" table="ST_QTICEINF_R" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="EXKEY" column="EXKEY" type="String"></property>
+    <property name="QNTICD" column="QNTICD" type="String"></property>
+    <property name="RLPSTN" column="RLPSTN" type="String"></property>
+    <property name="RLDSTN" column="RLDSTN" type="Decimal"></property>
+    <property name="LBDIWD" column="LBDIWD" type="Decimal"></property>
+    <property name="RBDIWD" column="RBDIWD" type="Decimal"></property>
+    <property name="BDITHK" column="BDITHK" type="Decimal"></property>
+    <property name="IRCON" column="IRCON" type="Decimal"></property>
+    <property name="DITHK" column="DITHK" type="Decimal"></property>
+    <property name="MXIA" column="MXIA" type="Decimal"></property>
+    <property name="MXIV" column="MXIV" type="Decimal"></property>
+    <property name="IQ" column="IQ" type="Decimal"></property>
+    <property name="FRZPROP" column="FRZPROP" type="String"></property>
+    <property name="BRKPROP" column="BRKPROP" type="String"></property>
+    <property name="DIPCK" column="DIPCK" type="Decimal"></property>
+    <property name="IDAMGRW" column="IDAMGRW" type="String"></property>
+    <property name="IDAMHGT" column="IDAMHGT" type="Decimal"></property>
+    <property name="IDAMWD" column="IDAMWD" type="Decimal"></property>
+    <property name="IDAMUPZ" column="IDAMUPZ" type="Decimal"></property>
+    <property name="IDAMUPWPTN" column="IDAMUPWPTN" type="String"></property>
+    <property name="ELTY" column="ELTY" type="String"></property>
+    <property name="IQPROP" column="IQPROP" type="String"></property>
+  </class>
+</hibernate-mapping>
+

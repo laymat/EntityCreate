@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="" namespace="">
+  <class name="ST_PDDMYAV_S" table="ST_PDDMYAV_S" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="MNTH" column="MNTH" type="Decimal"></property>
+    <property name="DAY" column="DAY" type="Decimal"></property>
+    <property name="MYDAVP" column="MYDAVP" type="Decimal"></property>
+    <property name="BGYR" column="BGYR" type="Decimal"></property>
+    <property name="EDYR" column="EDYR" type="Decimal"></property>
+    <property name="STTYRNUM" column="STTYRNUM" type="Decimal"></property>
+    <property name="COMMENTS" column="COMMENTS" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

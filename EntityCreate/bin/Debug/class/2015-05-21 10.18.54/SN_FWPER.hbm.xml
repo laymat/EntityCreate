@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LN_SYQINFO_DB.Model" namespace="LN_SYQINFO_DB.Model">
+  <class name="SN_FWPER" table="SN_FWPER" lazy="true" >
+    <id name="STID" column="STID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="MYAVTR" column="MYAVTR" type="Decimal"></property>
+    <property name="OBSMXQ" column="OBSMXQ" type="Decimal"></property>
+    <property name="MXQTM" column="MXQTM" type="String"></property>
+    <property name="OBSMNQ" column="OBSMNQ" type="Decimal"></property>
+    <property name="MNQTM" column="MNQTM" type="String"></property>
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="MvcApplication1" namespace="MvcApplication1.Models">
+  <class name="ST_RECVINF_E" table="ST_RECVINF_E" lazy="true" >
+    <id name="RLSH" column="RLSH" type="Decimal">
+      <generator class="assigned" />
+    </id>
+    <property name="RFNUM" column="RFNUM" type="Decimal"></property>
+    <property name="INSTCD" column="INSTCD" type="String"></property>
+    <property name="SLSH" column="SLSH" type="Decimal"></property>
+    <property name="STCD" column="STCD" type="String"></property>
+    <property name="TABID" column="TABID" type="String"></property>
+    <property name="TM" column="TM" type="DateTime"></property>
+    <property name="EXCKEY" column="EXCKEY" type="String"></property>
+    <property name="OPERATION" column="OPERATION" type="String"></property>
+    <property name="EXCINF" column="EXCINF" type="String"></property>
+    <property name="INSTOSTATUS" column="INSTOSTATUS" type="String"></property>
+    <property name="INSTOTM" column="INSTOTM" type="DateTime"></property>
+    <property name="ERRINF" column="ERRINF" type="String"></property>
+    <property name="MANUALTM" column="MANUALTM" type="DateTime"></property>
+    <property name="STAT" column="STAT" type="String"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+

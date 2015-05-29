@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ConsoleApplication1" namespace="ConsoleApplication1.model">
+  <class name="ST_RSVRFSR_B" table="ST_RSVRFSR_B" lazy="true" >
+    <id name="STCD" column="STCD" type="String">
+      <generator class="identity" />
+    </id>
+    <property name="ACTYR" column="ACTYR" type="Int32"></property>
+    <property name="BGMD" column="BGMD" type="String"></property>
+    <property name="EDMD" column="EDMD" type="String"></property>
+    <property name="FSLTDZ" column="FSLTDZ" type="Double"></property>
+    <property name="FSTP" column="FSTP" type="String"></property>
+    <property name="FSLTDW" column="FSLTDW" type="Decimal"></property>
+    <property name="MODITIME" column="MODITIME" type="DateTime"></property>
+  </class>
+</hibernate-mapping>
+
